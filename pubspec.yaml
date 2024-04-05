@@ -1,0 +1,31 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none' # Remove this if you want to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  sizer: ^2.0.15
+  flutter_screenutil: ^5.0.0+2 # Specify the latest version you intend to use
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+fonts:
+  - family: UberMoveMedium
+    fonts:
+      - asset: assets/fonts/UberMoveMedium.otf
+
+  - family: UberMoveBold
+    fonts:
+      - asset: assets/fonts/UberMoveBold.otf
